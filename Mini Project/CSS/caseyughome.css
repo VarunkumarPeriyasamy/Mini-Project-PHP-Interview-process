@@ -1,0 +1,20 @@
+#pic{
+    width: 350px;
+    height: 700px;
+} 
+#productimage,#productname,#clickme
+{
+    font-family:'Times New Roman', Times, serif;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+#productimage1
+{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#productname1
+{
+    color: black;
+}

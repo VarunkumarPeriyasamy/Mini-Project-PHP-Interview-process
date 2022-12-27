@@ -1,0 +1,50 @@
+body
+{
+    background-color: skyblue;
+}
+#one
+{
+    font-family:'Times New Roman', Times, serif;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 50px 150px;
+    grid-template-columns:2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "name menu1 menu2 menu3 menu4" "para para1 para2 para3 para4";
+    padding-top: 30px;
+}
+#name {
+    grid-area: name;
+    font-size: x-large;
+    padding-bottom: 25px;
+    padding-left: 40px;
+} 
+#color{
+    color: rgb(176, 152, 13);
+    display: inline;
+}
+#score{
+    display: inline;
+}
+.menu
+{
+    color: black;
+}
+#menu1{
+    grid-area: menu1;
+}
+#menu2{
+    grid-area: menu2;
+}
+#menu3{
+    grid-area: menu3;
+}
+#menu4{
+    grid-area: menu4;
+}
+#menu5{
+    grid-area: menu5;
+}
+#image
+{
+    padding-left: 600px;
+}
